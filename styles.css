@@ -1,0 +1,82 @@
+/* Estilo general */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  /* Botones */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button.selected {
+    background-color: #2196F3;
+  }
+  
+  #timer {
+    margin: 20px 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Botón Eliminar Historial */
+  #clearHistory {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #clearHistory:hover {
+    background-color: #e53935;
+  }
+  
+/* Botón por defecto */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+  }
+  
+  /* Botón seleccionado */
+  button.selected {
+    background-color: #2196F3; /* Color azul más visible */
+    border: 2px solid #0d47a1; /* Borde azul más oscuro para destacar */
+    color: white;
+  }
+  
+  /* Botón al pasar el mouse */
+  button:hover {
+    background-color: #45a049;
+  }
+  

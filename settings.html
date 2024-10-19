@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuración Pomodoro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Configuración</h1>
+
+  <h3>Tiempo de trabajo (min):</h3>
+  <div id="workTimeButtons">
+    <button class="timeButton" data-time="1">1</button>
+    <button class="timeButton" data-time="5">5</button>
+    <button class="timeButton" data-time="10">10</button>
+    <button class="timeButton" data-time="15">15</button>
+    <button class="timeButton" data-time="20">20</button>
+    <button class="timeButton" data-time="25">25</button>
+    <button class="timeButton" data-time="30">30</button>
+    <button class="timeButton" data-time="45">45</button>
+    <button class="timeButton" data-time="60">60</button>
+  </div>
+
+  <h3>Tiempo de descanso (min):</h3>
+  <div id="breakTimeButtons">
+    <button class="timeButton" data-time="1">1</button>
+    <button class="timeButton" data-time="5">5</button>
+    <button class="timeButton" data-time="10">10</button>
+    <button class="timeButton" data-time="15">15</button>
+    <button class="timeButton" data-time="20">20</button>
+    <button class="timeButton" data-time="25">25</button>
+  </div>
+
+  <!-- Botón de prueba rápida de 5 segundos -->
+  <button id="testButton">Prueba rápida (5 segundos)</button>
+
+  <button id="saveSettings">Guardar ajustes</button>
+
+  <script src="settings.js"></script>
+</body>
+</html>

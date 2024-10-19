@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "description": "Un temporizador Pomodoro para mejorar la productividad.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/pomodoro_icon_16.png",
+        "48": "icons/pomodoro_icon_48.png",
+        "128": "icons/pomodoro_icon_128.png"
+      }
+    },
+    "icons": {
+      "16": "icons/pomodoro_icon_16.png",
+      "48": "icons/pomodoro_icon_48.png",
+      "128": "icons/pomodoro_icon_128.png"
+    },
+    "permissions": ["notifications", "alarms", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  

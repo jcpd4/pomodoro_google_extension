@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Pomodoro Timer</h1>
+
+  <!-- Campo para el título del Pomodoro -->
+  <input type="text" id="pomodoroTitle" placeholder="Escribe el título del Pomodoro">
+
+  <!-- Temporizador en el centro -->
+  <div id="timer">
+    <span id="timeDisplay">25:00</span>
+  </div>
+
+  <!-- Botones de control -->
+  <button id="startPomodoro">Iniciar Pomodoro</button>
+  <button id="stopPomodoro">Detener</button>
+  <button id="resetPomodoro">Reiniciar</button>
+
+  <!-- Estado y contador de ciclos -->
+  <p id="status">Estado: No iniciado</p>
+  <p id="cycleCount">Ciclos completados: 0</p>
+
+  <!-- Historial de pomodoros -->
+  <div id="history">
+    <h3>Historial de Pomodoros</h3>
+    <ul id="historyList"></ul>
+    <!-- Botón para eliminar todo el historial -->
+    <button id="clearHistory">Eliminar historial</button>
+  </div>
+
+  <a href="settings.html" target="_blank">Configuración</a>
+
+  <script src="popup.js"></script>
+</body>
+</html>
